@@ -2241,7 +2241,7 @@ body._lock {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        margin-bottom: 28px;
+        margin-bottom: 20px;
     }
     .technologies-item__image img {
         width: 168px;
