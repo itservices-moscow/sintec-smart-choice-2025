@@ -614,7 +614,7 @@ body._lock {
   transition: all 1s ease 0s;
   top: 30px;
   display: flex;
-  /* align-items: flex-end; */
+  align-items: flex-end;
 }
 
 .intro__image img {
@@ -1991,7 +1991,7 @@ body._lock {
   display: flex;
   gap: 80px;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .products-content__label {
@@ -3588,7 +3588,7 @@ body._lock {
   }
 
   .products-content__row {
-    overflow: scroll;
+    overflow: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3599,6 +3599,10 @@ body._lock {
         -ms-flex-pack: center;
             justify-content: center;
     width: calc(100% + 20px);
+  }
+
+  .products-item {
+    pointer-events: none;
   }
 
   .products-content__row::-webkit-scrollbar {
