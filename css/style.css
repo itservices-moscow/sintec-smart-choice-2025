@@ -3585,7 +3585,7 @@ body._lock {
   }
 
   .products-content__row {
-    overflow: auto;
+    overflow: scroll;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3596,6 +3596,7 @@ body._lock {
         -ms-flex-pack: center;
             justify-content: center;
     width: calc(100% + 20px);
+    -webkit-overflow-scrolling: touch;
   }
 
   .products-item {
