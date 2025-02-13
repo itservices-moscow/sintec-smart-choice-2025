@@ -1462,7 +1462,7 @@ body._lock {
 .compound__bg video {
   position: absolute;
   width: calc(100% + 40px);
-  height: 100%;
+  height: calc(100% + 1px);
   left: 0;
   top: 0;
   -o-object-fit: cover;

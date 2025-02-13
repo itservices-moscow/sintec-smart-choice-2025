@@ -279,6 +279,7 @@ var PinchZoom = (function () {
         attributeChangedCallback(name, oldValue, newValue) {
             if (name === minScaleAttr) {
                 if (this.scale < this.minScale) {
+                    this.scale = this.minScale;
                     this.setTransform({ scale: this.minScale });
                 }
             }
